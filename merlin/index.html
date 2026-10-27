@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Test page: kept out of search results until the real site and domain are set up. -->
+<meta name="robots" content="noindex">
+<title>Merlin Interior Services</title>
+<meta name="description" content="Drywall and renovations in Edmonton and the surrounding area.">
+<style>
+  :root { --ink:#1c1f24; --muted:#6b7280; --page:#f1f2f6; --card:#fff; --blue:#3558c9; --on-blue:#fff; --chip:#e8ecf8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#eceef1; --muted:#9aa0a8; --page:#121417; --card:#1e2127; --blue:#9ba9e2; --on-blue:#121417; --chip:#262b38; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--page); color:var(--ink); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 48px; }
+  .card { background:var(--card); border-radius:18px; padding:24px; margin-bottom:16px; }
+  h1 { margin:0 0 4px; font-size:30px; line-height:1.2; } h2 { margin:0 0 12px; font-size:19px; }
+  p { margin:8px 0; } .muted { color:var(--muted); } a { color:var(--blue); }
+  .bar { height:6px; background:var(--blue); border-radius:3px; width:64px; margin-bottom:16px; }
+  .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+  .btn { display:inline-block; padding:11px 18px; border-radius:12px; font-weight:600; text-decoration:none;
+         background:var(--chip); color:var(--ink); }
+  .btn.main { background:var(--blue); color:var(--on-blue); }
+  .services { display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none; }
+  .services li { background:var(--chip); border-radius:999px; padding:6px 14px; font-size:15px; }
+  .work { display:grid; grid-template-columns:repeat(2, 1fr); gap:12px; }
+  figure { margin:0; }
+  figure img { width:100%; aspect-ratio:9/16; object-fit:cover; border-radius:12px; display:block; background:var(--chip); }
+  figcaption { font-size:14px; color:var(--muted); margin-top:6px; }
+  .contact p { margin:4px 0; }
+  footer { text-align:center; font-size:13px; color:var(--muted); margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <div class="bar"></div>
+    <h1>Merlin Interior Services</h1>
+    <p class="muted">Drywall and renovations · Edmonton and surrounding area</p>
+    <div class="actions">
+      <a class="btn main" href="tel:+17802423685">Call</a>
+      <a class="btn" href="mailto:devinhop1@gmail.com">Email</a>
+      <a class="btn" href="merlin.vcf" download>Save contact</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>About</h2>
+    <p>Merlin Interior Services is an Edmonton drywall and renovation company. From framing fixes and boarding to taping, insulation and full basement renovations, we take care of the inside of your home, from a single patch to the whole job.</p>
+  </div>
+
+  <div class="card">
+    <h2>Services</h2>
+    <ul class="services">
+      <li>Boarding</li>
+      <li>Taping</li>
+      <li>Patch and repair</li>
+      <li>Framing fixes</li>
+      <li>Insulation and vapour barrier</li>
+      <li>Demolition</li>
+      <li>Basement renovations</li>
+      <li>Home renovations</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Recent work</h2>
+    <div class="work">
+      <figure><img src="photos/round-opening.jpg" alt="Round opening cut into a drywall wall, taped and mudded" loading="lazy"><figcaption>Round opening</figcaption></figure>
+      <figure><img src="photos/vaulted-ceiling.jpg" alt="Vaulted ceiling with taped and mudded drywall seams" loading="lazy"><figcaption>Vaulted ceiling</figcaption></figure>
+      <figure><img src="photos/stairwell.jpg" alt="Open stairwell with a sloped drywall ceiling and tall window" loading="lazy"><figcaption>Stairwell and sloped ceiling</figcaption></figure>
+      <figure><img src="photos/bulkheads.jpg" alt="Drywall bulkheads and boxed door openings" loading="lazy"><figcaption>Bulkheads and door openings</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="card contact">
+    <h2>Get a quote</h2>
+    <p>Devonte Hopkins</p>
+    <p><a href="tel:+17802423685">780-242-3685</a></p>
+    <p><a href="mailto:devinhop1@gmail.com">devinhop1@gmail.com</a></p>
+    <p class="muted">Serving Edmonton and the surrounding area.</p>
+  </div>
+
+  <footer>© Merlin Interior Services</footer>
+</main>
+</body>
+</html>
